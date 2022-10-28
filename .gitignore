@@ -1,0 +1,6 @@
+# ignore files in root path
+ERidley-Resume.html
+count.json
+microsoft.gpg
+tests
+.vscode

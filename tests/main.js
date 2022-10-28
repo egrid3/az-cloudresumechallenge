@@ -3,7 +3,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
   getVisitCount();
 });
 
-//const localApi = 'http://localhost:7071/api/GetResCount';
+const localApi = 'count.json'; //http://localhost:0000';
 const apiFunction = ''; 
 
 const getVisitCount = () => {

@@ -14,6 +14,26 @@
       "type": "http",
       "direction": "out",
       "name": "res"
+    },
+    {
+      "type": "cosmosDB",
+      "direction": "in",
+      "name": "inputDocument",
+      "databaseName": "AZResumeCounter",
+      "collectionName": "Counter",
+      "partitionKey": "/keyid",
+      "connectionStringSetting": "AZConnectionString",
+      "id": "010"
+    },
+    {
+      "type": "cosmosDB",
+      "direction": "out",
+      "name": "outputDocument",
+      "databaseName": "AZResumeCounter",
+      "collectionName": "Counter",
+      "partitionKey": "/keyid",
+      "createIfNotExists": "true",
+      "connectionStringSetting": "AZConnectionString"
     }
   ]
 }
